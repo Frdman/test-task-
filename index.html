@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Popup</title>
     <link rel="stylesheet" href="styles.css"> <!-- Подключаем CSS-стили -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,21 +22,20 @@
             <h2>Попап</h2>
             <div class="input-container">
                 <div class="column1">
-                    <input type="text" placeholder="Поле 1" name="text" class="input">
-                    <input type="text" placeholder="Поле 2" name="text" class="input">
-                    <input type="text" placeholder="Поле 3" name="text" class="input">
+                    <input type="text" placeholder="Фамилия">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Отчество">
                 </div>
                 <div class="column2">
-                    <input type="text" placeholder="Поле 4" name="text" class="input">
-                    <input type="text" placeholder="Поле 5" name="text" class="input">
+                    <input type="text" placeholder="Дата рождения">
+                    <input type="text" placeholder="Город">
                 </div>
             </div>
             <div class="end">
-                <button id="submitButton"><span>Отправить</span></button>
+                <button id="submitButton" type="submit"><span>Отправить</span></button>
             </div>
         </div>
     </div>
-
     <!-- Вывод данных на основной странице -->
     <div id="output"></div>
     <!--Подключение скриптов-->
